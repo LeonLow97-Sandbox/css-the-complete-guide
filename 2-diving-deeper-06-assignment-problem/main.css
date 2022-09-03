@@ -1,0 +1,59 @@
+.box-style {
+  padding: 10px 0px 10px 0px;
+  margin: 5px;
+  border: 10px solid red;
+  display: inline-block;
+  height: 300px;
+  box-sizing: border-box;
+  width: 48%;
+  margin: 0;
+}
+
+/* .box-style:hover {
+  background: yellow;
+  border: 10px solid mediumseagreen;
+} */
+
+html,
+body {
+  height: 100%;
+}
+
+#first-box {
+  /* visibility: hidden;  */
+  /* display: none; */
+}
+
+/* pseudo-class to select last element (not recommended, use classes)*/
+div:last-of-type:hover {
+  border-color: green;
+}
+
+/* .box-style-1 {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+
+  padding: 5px 10px 15px 20px;
+
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+  border-bottom: 3px solid red;
+  border-left: 3px solid red;
+
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: red;
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+
+  margin: 10px 20px 30px 40px;
+} */
